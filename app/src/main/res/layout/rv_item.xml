@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/doc_name_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="20dp"
+    android:layout_marginHorizontal="5dp">
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="7dp"-->
+<!--        android:layout_marginRight="7dp"-->
+<!--        app:cardBackgroundColor="#DADBE4"-->
+<!--        app:cardCornerRadius="10dp"-->
+<!--        app:cardElevation="20dp"-->
+
+<!--        >-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/doctor_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingStart="8dp"
+                    android:text="Doctor Name"
+                    android:textColor="@color/purple_700"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/specialist"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="25dp"
+                    android:text="specialist"
+                    android:textColor="@color/purple_700"
+                    android:textSize="20sp"
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#33C6B9"
+                android:padding="15dp"
+                android:text="Book Appointment"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_corner"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

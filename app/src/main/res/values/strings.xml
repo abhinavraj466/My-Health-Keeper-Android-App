@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Health Keeper</string>
+    <string name="my_health_keeper">My Health Keeper</string>
+    <string name="find_doctor">Find Doctor</string>
+    <string name="buy_medicine">Buy Medicine</string>
+    <string name="medical_articles">Medical Articles</string>
+    <string name="log_out">Log Out</string>
+    <string name="my_health_keeper_toolbar">My Health Keeper</string>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Doctor Name : "-->
+<!--            android:textSize="18sp"-->
+<!--            android:layout_marginHorizontal="15dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/doctorName_doc_pres"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Abhinav"-->
+<!--            android:textSize="18sp"-->
+<!--            android:layout_marginHorizontal="3dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:textColor="@color/black" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Name : "
+            android:textSize="18sp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/patientName_doc_pres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raj"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age : "
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/patientAge_doc_pres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Date :- "-->
+<!--            android:textSize="18sp"-->
+<!--            android:layout_marginStart="45dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginEnd="5dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/patientMobile_doc_pres"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="27/06/2023"-->
+<!--            android:textSize="18sp"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginEnd="5dp"/>-->
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address : "
+            android:textSize="18sp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/patientAddress_doc_pres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bihar"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:textSize="18sp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/appointmentDate_doc_pres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26/07/2023"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="55dp">
+
+        <Button
+            android:id="@+id/btnConsultation"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Consultation"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/teal_200"
+            android:background="@drawable/round_primary"/>
+
+        <Button
+            android:id="@+id/btnPrescription"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Prescription"
+            android:gravity="center"
+            android:background="@drawable/round_primary"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnCancelAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Cancel Appointment"
+            android:gravity="center"
+            android:background="@drawable/round_primary"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

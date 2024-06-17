@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.abhinav.myhealthkeeper.LoginActivity">
+    
+    <View
+        android:id="@+id/login_bg_view"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:background="@drawable/login2_bg_view"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/newuser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        tools:ignore="NotSibling"
+       />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:gravity="center"
+        android:text="Sign in"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="#AD61ACE4"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#AD61ACE4"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="#FF5722"
+        android:padding="5dp"
+        android:text="Login"
+        android:textSize="20dp"
+        tools:ignore="MissingClass" />
+
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_bg_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Forgot password?"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/newuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgotpassword"
+        android:gravity="center"
+        android:text="New User?"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        />
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_below="@+id/login_bg_view">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/signinwith"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/newuser"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="or sign in with"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="15dp"-->
+<!--            />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/socialicons"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:gravity="center">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="55dp"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:layout_marginStart="25dp"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginEnd="25dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:src="@drawable/google_svgrepo_com"-->
+<!--                android:contentDescription="TODO" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="55dp"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:layout_marginStart="25dp"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginEnd="25dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:src="@drawable/facebook_network_communication_internet_interaction_svgrepo_com" />-->
+
+<!--        </LinearLayout>-->
+
+
+
+
+<!--    </LinearLayout>-->
+
+
+
+
+
+
+
+
+</RelativeLayout>

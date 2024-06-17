@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48950303315",
+    "project_id": "my-health-keeper-abhinav",
+    "storage_bucket": "my-health-keeper-abhinav.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48950303315:android:bd6f655f2be6afc7db04a6",
+        "android_client_info": {
+          "package_name": "com.abhinav.myhealthkeeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8YAiFN0l1QvlhANnZ0po4AQet9FFUW-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
